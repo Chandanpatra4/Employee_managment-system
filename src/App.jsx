@@ -35,8 +35,6 @@ function App() {
         setLoggedInUserData(employee)
         localStorage.setItem('loggedInUser', JSON.stringify({ role: 'employee' }))
       }
-
-
     }
     else {
       alert("Invalid Credentials")
