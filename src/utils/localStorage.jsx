@@ -1,7 +1,10 @@
+
+
 const employees = [
     {
         "id": 1,
-        "email": "employee1@example.com",
+        "firstName": "Aarav",
+        "email": "e@e.com",
         "password": "123",
         "tasks": [
             {
@@ -24,10 +27,17 @@ const employees = [
                 "date": "2024-10-18",
                 "category": "Meetings"
             }
-        ]
+        ],
+        "taskSummary": {
+            "active": 1,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 0
+        }
     },
     {
         "id": 2,
+        "firstName": "Vihaan",
         "email": "employee2@example.com",
         "password": "123",
         "tasks": [
@@ -51,10 +61,17 @@ const employees = [
                 "date": "2024-10-22",
                 "category": "Finance"
             }
-        ]
+        ],
+        "taskSummary": {
+            "active": 1,
+            "newTask": 1,
+            "completed": 0,
+            "failed": 0
+        }
     },
     {
         "id": 3,
+        "firstName": "Aditya",
         "email": "employee3@example.com",
         "password": "123",
         "tasks": [
@@ -78,10 +95,17 @@ const employees = [
                 "date": "2024-10-19",
                 "category": "Development"
             }
-        ]
+        ],
+        "taskSummary": {
+            "active": 1,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 0
+        }
     },
     {
         "id": 4,
+        "firstName": "Ishaan",
         "email": "employee4@example.com",
         "password": "123",
         "tasks": [
@@ -105,10 +129,17 @@ const employees = [
                 "date": "2024-10-24",
                 "category": "Documentation"
             }
-        ]
+        ],
+        "taskSummary": {
+            "active": 1,
+            "newTask": 1,
+            "completed": 0,
+            "failed": 1
+        }
     },
     {
         "id": 5,
+        "firstName": "Kiaan",
         "email": "employee5@example.com",
         "password": "123",
         "tasks": [
@@ -132,9 +163,16 @@ const employees = [
                 "date": "2024-10-20",
                 "category": "Training"
             }
-        ]
+        ],
+        "taskSummary": {
+            "active": 1,
+            "newTask": 1,
+            "completed": 0,
+            "failed": 0
+        }
     }
-]
+];
+
 
 const admin = [
     {

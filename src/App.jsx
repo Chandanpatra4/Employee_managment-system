@@ -42,7 +42,7 @@ function App() {
   }
 
   const data = useContext(AuthContext)
-  console.log(data)
+ 
 
   return (
     <>
